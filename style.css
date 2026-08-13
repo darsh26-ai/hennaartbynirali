@@ -158,6 +158,22 @@ a {
   flex-wrap: wrap;
 }
 
+.henna-title {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  line-height: 1.05;
+  color: #5a2d20;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.henna-title span {
+  display: block;
+  font-size: 0.7em;
+  margin-top: 8px;
+}
+
 .btn {
   display: inline-flex;
   justify-content: center;
