@@ -132,13 +132,13 @@ a {
   margin-bottom: 15px;
 }
 
-.hero h1 {
+/* .hero h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(4rem, 8vw, 7.5rem);
   line-height: 0.85;
   font-weight: 500;
   margin-bottom: 35px;
-}
+} */
 
 .hero h1 span {
   color: var(--gold-light);
