@@ -23,6 +23,25 @@ const dd = String(today.getDate()).padStart(2, "0");
 
 dateInput.min = `${yyyy}-${mm}-${dd}`;
 
+// ==========================================
+// EMAILJS CONFIGURATION
+// ==========================================
+
+// Replace this with your EmailJS Public Key
+const EMAILJS_PUBLIC_KEY = "uIYNGzThqukn6qBs0";
+
+// Replace these with your actual EmailJS IDs
+const EMAILJS_SERVICE_ID = "service_243257g";
+const EMAILJS_TEMPLATE_ID = "template_4q8yq8h";
+
+
+// Initialize EmailJS
+emailjs.init({
+  publicKey: EMAILJS_PUBLIC_KEY
+});
+
+
+
 // Booking form
 const bookingForm = document.getElementById("bookingForm");
 const formMessage = document.getElementById("formMessage");
