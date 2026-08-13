@@ -94,12 +94,6 @@ a {
 
 /* Hero */
 
-.logo-script {
-  font-family: "Great Vibes", cursive;
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-
 .hero {
   min-height: 100vh;
   padding: 150px 8% 80px;
